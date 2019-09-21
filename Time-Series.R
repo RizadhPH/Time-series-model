@@ -8,7 +8,7 @@ library(fpp2)
 library(ggplot2)
 
 #Load the data
-data <- read.csv("C:/Users/rizadh/Desktop/Retail_Sales_Adjusted.csv")
+data <- read.csv("....../Retail_Sales_Adjusted.csv")
 
 # Declare the sales column as time series 
 Y <- ts(data[,2],start = c(1992,1), frequency = 12)
